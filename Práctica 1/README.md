@@ -11,7 +11,8 @@ Descripción: A continuación podremos ver un fragmento de los pasos incluidos e
 ![2022-03-01 23_14_55-Alan Santos pdf](https://user-images.githubusercontent.com/58988280/156700265-3503e4b8-67ae-4ead-ad2e-b7cd47d0b0fb.png)
 
 3.-Target  
-  
+![audiencia](https://user-images.githubusercontent.com/58988280/156701225-6d42cc06-27c6-4544-abdc-688d920ffe67.png)
+
 4.-UX Wireframe  
 ![Wireframe](https://user-images.githubusercontent.com/58988280/156700258-ec59847b-5ee7-4c66-a460-f96c3dbed5fc.png)
 
