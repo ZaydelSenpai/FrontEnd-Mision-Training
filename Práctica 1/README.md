@@ -3,7 +3,7 @@
   
 Descripción: A continuación podremos ver un fragmento de los pasos incluidos en los [requerimientos](https://github.com/ZaydelSenpai/FrontEnd-Mision-Training/blob/main/Pr%C3%A1ctica%201/AbogabotRequerimientosZaydel.doc/)
 
-Explicación:  
+### Explicación:  
 Abogabot es una página web que se encarga de canalizar usuarios hacia un administrador que se encarga de administrar demandas.
 
 Primero, el usuario se registra para poder aplicar una demanda.
