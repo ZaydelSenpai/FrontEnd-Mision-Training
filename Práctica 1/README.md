@@ -3,6 +3,15 @@
   
 Descripción: A continuación podremos ver un fragmento de los pasos incluidos en los [requerimientos](https://github.com/ZaydelSenpai/FrontEnd-Mision-Training/blob/main/Pr%C3%A1ctica%201/AbogabotRequerimientosZaydel.doc/)
 
+Explicación:  
+Abogabot es una página web que se encarga de canalizar usuarios hacia un administrador que se encarga de administrar demandas.
+
+Primero, el usuario se registra para poder aplicar una demanda.
+Una vez registrado puede crear un ticket o revisar sus demandas en curso.
+Al completar el formulario el administrador recibe un ticket con la demanda y se le da seguimiento.
+El usuario debe pagar mediante una pasarela en PayPal para generar un ticket o demanda.
+El usuario recibe notificaciones en tiempo real en la página y correo electrónico.
+
 1.-Funcionamiento del sitio  
 ![webfuncionamiento](https://user-images.githubusercontent.com/58988280/156700333-1231d0ec-9655-4a76-92e7-ad815b641992.png)
 ![Diagrama de Tiempo](https://user-images.githubusercontent.com/58988280/156700377-eb8bb050-845a-4de9-83c5-6bf004b10136.png)
