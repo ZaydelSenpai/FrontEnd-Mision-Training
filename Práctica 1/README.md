@@ -6,11 +6,11 @@ Descripción: A continuación podremos ver un fragmento de los pasos incluidos e
 ### Explicación:  
 Abogabot es una página web que se encarga de canalizar usuarios hacia un administrador que se encarga de administrar demandas.
 
-Primero, el usuario se registra para poder aplicar una demanda.
-Una vez registrado puede crear un ticket o revisar sus demandas en curso.
-Al completar el formulario el administrador recibe un ticket con la demanda y se le da seguimiento.
-El usuario debe pagar mediante una pasarela en PayPal para generar un ticket o demanda.
-El usuario recibe notificaciones en tiempo real en la página y correo electrónico.
+Primero, el usuario se registra para poder aplicar una demanda.  
+Una vez registrado puede crear un ticket o revisar sus demandas en curso.  
+Al completar el formulario el administrador recibe un ticket con la demanda y se le da seguimiento.  
+El usuario debe pagar mediante una pasarela en PayPal para generar un ticket o demanda.  
+El usuario recibe notificaciones en tiempo real en la página y correo electrónico.  
 
 1.-Funcionamiento del sitio  
 ![webfuncionamiento](https://user-images.githubusercontent.com/58988280/156700333-1231d0ec-9655-4a76-92e7-ad815b641992.png)
