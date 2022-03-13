@@ -1,0 +1,787 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Helvetica';
+}
+
+.header {
+	width: 100%;
+    height: 180px;
+	overflow:hidden; 
+	background:#ffffff8c;
+    backdrop-filter: blur(4px);
+}
+
+.wrapper {
+	width:100%;
+	max-width:auto;
+	margin:auto;
+}
+
+header .logo {
+    float: left;
+    text-align: left;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-left: 150px;
+    color: #3353d1;
+}
+
+nav a{
+    display: inline-block;
+    padding: 0 20px;
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+nav {
+    text-align: right;
+    padding: 20px 0 0 0;
+    font-size: 30px;
+    margin-top: 33px;
+    margin-right: 150px;
+}
+
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+
+.buttonj {
+    width: auto;
+    background: hsl(221, 73%, 45%);
+    border: none;
+    padding: 16px;
+    color: white;
+    margin: 16px 0;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+}
+  
+.buttonj:hover {
+    background: #3f6ac5;
+    object-fit: scale-down
+}
+
+.container img { height: 100%;
+    width: 49.88%;
+    display: inline-block;
+    position: relative;}
+
+.contenedor{
+position: absolute;
+margin-left: 90px;
+      color: black;
+      top: 250px;
+      left: 60px;
+}
+
+.contenedor .parrafo{
+color: rgb(1, 60, 129);
+font-size: 40px;
+}
+
+.contenedor .parrafo2{
+    color: rgb(85, 85, 85);
+    margin-top: 40px;
+    font-size: 15px;
+    }
+
+.contenedor .parrafo3{
+    color: rgb(1, 60, 129);
+    margin-top: 125px;
+    font-size: 30px;
+    }
+
+.fa-shield-blank{
+    color:rgb(255, 196, 0);
+    margin-right: 10px;
+}
+
+.fa-star{
+    color:rgb(255, 196, 0);
+    margin-right: 10px;
+    padding-left: 25px;
+}
+
+.contenedor .parrafo4{
+    color: rgb(1, 60, 129);
+    margin-top: 200px;
+    margin-left: 50px;
+    font-size: 40px;
+    }
+
+.cuadrado{
+    width: 1700px; 
+    height: 150px; 
+    margin-left: 0px;
+    margin-top: 30px;
+    background: #ffffffd2;
+    box-shadow: 7px 13px 37px rgb(0, 35, 75);
+}
+
+
+.cuadrado .textocuadrado{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgb(85, 85, 85);
+}
+
+.fa-location-dot{
+    color: rgb(1, 60, 129);
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-left: 0px;
+}
+
+.fa-calendar{
+    color: rgb(1, 60, 129);
+    margin-right: 10px;
+    margin-top: 20px;
+    padding-left: 150px;
+}
+
+.fa-syringe{
+    color: rgb(1, 60, 129);
+    margin-right: 10px;
+    padding-left: 200px;
+}
+
+.cuadrado .textocuadrado2{
+    font-size: 50px;
+    margin-left: 65px;
+    padding-left: 0;
+    color: rgb(0, 0, 0);
+}
+
+.textointerior1{
+margin-left: -5px;
+}
+
+.textointerior2{
+    margin-left: 260px;
+}
+
+.textointerior3{
+    margin-left: 140px;
+}
+
+.buttonx {
+    width: auto;
+    background: hsl(221, 73%, 45%);
+    border: none;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+    position: absolute ;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.vacunas{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 80px;
+        margin-bottom: 150px;
+        width: 90%;
+}
+
+.seccion2{
+
+    margin-left: 150px;
+    color: black;
+    color: rgb(1, 60, 129);
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.seccion2 .parrafo5{
+    color: rgb(85, 85, 85);
+    top: 50px;
+    font-size: 35px;
+}
+
+.seccion2 .parrafo2{
+    color: rgb(85, 85, 85);
+    margin-top: 40px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-bottom: 80px;
+}
+
+.card{
+    margin-top: 10px;
+    color: #000;
+}
+
+.card .individual{
+    width: 330px; 
+    height: 450px; 
+    margin-top: 30px;
+    margin-bottom: 230px;
+    background: #ffffffd2;
+    display: inline-block;
+    padding: auto;
+    box-shadow: 7px 13px 37px rgb(105, 105, 105);
+    margin-left: 60px;
+    border-radius: 15px;
+}
+
+.card .individual:hover {
+    box-shadow: 7px 13px 37px rgb(0, 35, 75);
+}
+
+.fa-bars-progress{
+    color: rgb(1, 60, 129);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.fa-shield{
+    color: rgb(1, 60, 129);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.fa-people-arrows{
+    color: rgb(1, 60, 129);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.fa-arrow-trend-up{
+    color: rgb(1, 60, 129);
+    font-size: 50px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.textoindividual1{
+    color: #00277a;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -70px;
+    margin-right: 1400px;
+    font-size: 35px;
+}
+
+.textoindividual2{
+    color: #00277a;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -70px;
+    margin-right: 980px;
+    font-size: 35px;
+}
+
+.textoindividual3{
+    color: #00277a;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -70px;
+    margin-right: 550px;
+    font-size: 35px;
+}
+
+.textoindividual4{
+    color: #00277a;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -70px;
+    margin-right: 180px;
+    font-size: 35px;
+}
+
+.textopeque1{
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -70px;
+    margin-right: 1350px;
+    font-size: 25px;
+}
+
+.textopeque2{
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -70px;
+    margin-right: 980px;
+    font-size: 25px;
+}
+
+.textopeque3{
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -70px;
+    margin-right: 550px;
+    font-size: 25px;
+}
+
+.textopeque4{
+    color: #000000;
+    position: absolute;
+    margin-top: 250px;
+    margin-left: -70px;
+    margin-right: 180px;
+    font-size: 25px;
+}
+
+.containernuevo {
+    margin-bottom: 300px;
+}
+
+.containernuevo img { height: 100%;
+    width: 49.76%;
+    display: inline-block;
+    position: relative;
+}
+
+.containernuevo .parrafo7 {
+    color: rgb(1, 60, 129);
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 0px;
+    font-size: 30px;
+    z-index: 1;
+}
+
+.parrafo8 {
+    position: absolute;
+    color: rgb(100, 100, 100);
+    z-index: 1;
+    margin-left: -872px;
+    margin-top: 200px;
+    font-size: 13px;
+    margin-right: 150px;
+    line-height : 40px;
+}
+
+.cosito {
+    padding: 200px;
+    position: absolute;
+    margin-top: -800px;
+    margin-left: 700px;
+    font-size: 15px;
+}
+   
+   .faq-drawer {
+     margin-bottom: 30px;
+}
+   
+   .faq-drawer__content-wrapper {
+     font-size: 1.25em;
+     line-height: 1.4em;
+     max-height: 0px;
+     overflow: hidden;
+     transition: 0.25s ease-in-out;
+}
+   
+   .faq-drawer__title {
+     border-top: #000 1px solid;
+     cursor: pointer;
+     display: block;
+     font-size: 1.25em;
+     font-weight: 700;
+     padding: 30px 0 0 0;
+     position: relative;
+     margin-bottom: 0;
+     transition: all 0.25s ease-out;
+}
+   
+   .faq-drawer__title::after {
+     border-style: solid;
+     border-width: 1px 1px 0 0;
+     content: " ";
+     display: inline-block;
+     float: right;
+     height: 10px;
+     left: 2px;
+     position: relative;
+     right: 20px;
+     top: 2px;
+     transform: rotate(135deg);
+     transition: 0.35s ease-in-out;
+     vertical-align: top;
+     width: 10px;
+  }
+   
+   /* OPTIONAL HOVER STATE */
+   .faq-drawer__title:hover { 
+     color: #000000  ;
+   }
+   
+   .faq-drawer__trigger:checked
+     + .faq-drawer__title
+     + .faq-drawer__content-wrapper {
+     max-height: 350px;
+   }
+   
+   .faq-drawer__trigger:checked + .faq-drawer__title::after {
+     transform: rotate(-45deg);
+     transition: 0.25s ease-in-out;
+   }
+   
+   input[type="checkbox"] {
+     display: none;
+   }
+   
+   @media only screen and (max-width: 600px) {
+     .container {
+       padding: 80px;
+     }
+   }
+   
+.faq-drawer{
+    font-size: 20px;
+}
+
+.faq-drawer__content-wrapper{
+    color: #000;
+}
+
+.ContenedorContacto{
+    color: #4d4d4d;
+    font-size: 15px;
+    position: absolute;
+    margin-left: 140px;
+}
+
+
+.derecha{
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+
+.cuadritos{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 250px;
+    margin-left: 300px;
+    margin-bottom: 230px;
+    background: #ffffffd2;
+    padding: auto;
+    border: rgba(149, 149, 149, 0.712) solid;
+    margin-left: 200px;
+    border-radius: 15px;
+    position: absolute;
+    color: #00277a;
+    font-size: 35px;
+}
+
+.cuadritos2{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 525px;
+    margin-left: 300px;
+    margin-bottom: 230px;
+    background: #ffffffd2;
+    border: rgba(149, 149, 149, 0.712) solid;
+    padding: auto;
+    margin-left: 200px;
+    border-radius: 15px;
+    position: absolute;
+    color: #00277a;
+    font-size: 35px;
+}
+
+.cuadritos3{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 525px;
+    margin-bottom: 230px;
+    background: #ffffffd2;
+    border: rgba(149, 149, 149, 0.712) solid;
+    padding: auto;
+    margin-left: 600px;
+    border-radius: 15px;
+    position: absolute;
+    color: #00277a;
+    font-size: 35px;
+}
+
+.cuadritos4{
+    width: 300px; 
+    height: 250px; 
+    margin-top: 250px;
+    margin-left: 300px;
+    margin-bottom: 230px;
+    background: #ffffffd2;
+    border: rgba(149, 149, 149, 0.712) solid;
+    padding: auto;
+    margin-left: 600px;
+    border-radius: 15px;
+    position: absolute;
+    color: #00277a;
+    font-size: 35px;
+}
+
+.fa-phone{
+    margin-top: 20px;
+}
+
+.fa-message{
+    margin-top: 20px;
+}
+
+.fa-rocketchat{
+    margin-top: 20px;
+}
+
+.fa-youtube{
+    margin-top: 20px;
+}
+
+.botones1 {
+    height: 80px;
+    width: 200px;
+    color: #2848c6;
+    background: #f1f5ff;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 350px;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+
+.botones2 {
+    height: 80px;
+    width: 200px;
+    color: #2848c6;
+    background: #f1f5ff;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 350px;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+
+}
+.botones3 {
+    height: 80px;
+    width: 200px;
+    color: #2848c6;
+    background: #f1f5ff;
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 630px;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+.botones4 {
+    height: 80px;
+    width: 200px;
+    color: #2848c6;
+    background: #f1f5ff;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 630px;
+    font-size: 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+    transition:0.4s;
+    cursor: pointer;
+    text-align: center;
+    line-height: 80px;
+}
+.cuadritos:hover{
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+}
+.cuadritos2:hover{
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+}
+.cuadritos3:hover{
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+}
+.cuadritos4:hover{
+    box-shadow: 0 0 20px 0 hsla(221, 73%, 45%, 0.356);
+}
+.botones1:hover{
+    background: #3454d2;
+    color: #fff;
+    box-shadow: 0px 0px 37px #bcd5fa
+}
+.botones2:hover{
+    background: #3454d2;
+    color: #fff;
+    box-shadow: 0px 0px 37px #bcd5fa
+}
+.botones3:hover{
+    background: #3454d2;
+    color: #fff;
+    box-shadow: 0px 0px 37px #bcd5fa
+}
+.botones4:hover{
+    background: #3454d2;
+    color: #fff;
+    box-shadow: 0px 0px 37px #bcd5fa
+}
+
+.contnedor-footeer{
+        width: 100%;
+        margin: 0 auto;
+        position:absolute;
+        z-index: 1;
+        top: 4900px;
+        font-size: 20px;
+      }
+
+.logofo {
+    position: absolute;
+    top: 70px;
+    left: 98px;
+    color: #3353d1;
+    font-size: 40px;
+  }
+
+  .textfo {
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    font-size: 15px;
+    margin-right: 870px;
+    color: #99a4b8;
+    line-height: 20px;
+  }
+
+  .rights {
+    position: absolute;
+    font-size: 15px;
+    top: 90%;
+    left: 100px;
+    color: #99a4b8;
+  }
+
+  .about {
+    position: absolute;
+    font-size: 20px;
+    top: 75px;
+    left: 600px;
+    color: #1f3e72;
+  }
+
+  .abouttext {
+    position: absolute;
+    font-size: 10px;
+    top: 110px;
+    left: 600px;
+    line-height: 30px;
+    color: #99a4b8;
+    text-align: left;
+  }
+
+
+  .abouttext h1:hover {
+    cursor: pointer;
+    color: #5477b8;;
+  }
+
+
+  .company {
+    position: absolute;
+    font-size: 20px;
+    top: 75px;
+    left: 750px;
+    color: #1f3e72;
+  }
+
+  .companytext {
+    position: absolute;
+    font-size: 10px;
+    top: 110px;
+    left: 750px;
+    line-height: 30px;
+    color: #99a4b8;
+    text-align: left;
+    cursor: pointer;
+  }
+
+
+
+  .companytext h1:hover {
+    cursor: pointer;
+    color: #5477b8;;
+  }
+
+
+  .support {
+    position: absolute;
+    font-size: 20px;
+    top: 75px;
+    left: 900px;
+    color: #1f3e72;
+  }
+
+  .supporttext {
+    position: absolute;
+    font-size: 10px;
+    top: 110px;
+    left: 900px;
+    line-height: 30px;
+    color: #99a4b8;
+    text-align: left;
+  }
+
+
+  .supporttext h1:hover {
+    cursor: pointer;
+    color: #5477b8;;
+  }
+
+  .terms {
+    position: absolute;
+    font-size: 20px;
+    top: 90%;
+    left: 700px;
+    color: #99a4b8;
+  }
+
+  .terms2 {
+    position: absolute;
+    font-size: 20px;
+    top: 90%;
+    left: 960px;
+    color: #99a4b8;
+  }
+
+  .terms:hover {
+    cursor: pointer;
+    color: #5477b8;;
+  }
+
+  .terms2:hover {
+    cursor: pointer;
+    color: #5477b8;;
+  }
