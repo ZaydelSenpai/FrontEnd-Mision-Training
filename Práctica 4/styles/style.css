@@ -1,0 +1,110 @@
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  height: 100%
+}
+body {
+  background-image:url("../images/back.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+body {
+  font-family: 'Tahoma', sans-serif;
+  height: 100%;
+}
+
+.title {
+  text-align: center;
+  font-size: 3em;
+}
+
+.main {
+  display: flex;
+  height: 80vh;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.main .inputFields,
+.main .pokemonData {
+  width: 50%;
+}
+
+.main .inputFields {
+  display: flex;
+  flex-direction: column;
+  font-size: 2em;
+  text-align: center;
+  justify-content: center;
+  margin-block: 0;
+}
+
+.inputFields input {
+  font-size: 1.2em;
+  text-align: center;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.inputFields .buttons img {
+  margin: 10px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  cursor: pointer;
+}
+
+.pokemonData {
+  display: flex;
+  flex-direction: row;
+}
+
+.pokemonData .container {
+  font-family: 'Tahoma', sans-serif;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 3px solid rgb(255, 255, 255);
+  margin-block-end: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+
+.pokemonData .container img {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.pokemonData .container h2 {
+  text-align: center;
+  text-transform: capitalize;
+  color: white;
+}
+
+.pokemonData .container .pokemonStatsContainer {
+  margin-top: 65px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+  color: white;
+}
+
+.pokemonData .container .pokemonStatsContainer p {
+  box-sizing: border-box;
+  border: 3px solid rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+}
